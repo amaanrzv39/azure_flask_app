@@ -12,5 +12,5 @@ curl -d '{
   "Credit_History":"Non default"
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://flaskmlapp.azurewebsites.net:$PORT/predict 
+     -X POST https://amaanmlapp.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
